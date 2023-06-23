@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+
+  <title>Website Using Bootstrap</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-brands fa-sketch fa-flip-vertical"
+          style="color: #46c8bf; font-size: 2rem"></i></a>
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- Home -->
+          <li class="nav-item">
+            <a class="nav-link text-light text-uppercase fw-bold px-3" aria-current="page" href="#">Home</a>
+          </li>
+
+          <!-- Skills -->
+          <li class="nav-item dropdown" data-bs-toggle="dropdown">
+            <a class="nav-link text-light text-uppercase fw-bold px-3 dropdown-toggle" href="#skills">Skills</a>
+            <div class="dropdown-menu">
+              <a href="#html" class="dropdown-item">HTML 5</a>
+              <a href="#css" class="dropdown-item">CSS 3</a>
+              <a href="#bootstrap" class="dropdown-item">Bootstrap</a>
+            </div>
+          </li>
+
+          <!-- Projects -->
+          <li class="nav-item">
+            <a class="nav-link text-light text-uppercase fw-bold px-3 " href="#projects">Projects</a>
+          </li>
+
+          <!-- Team -->
+          <li class="nav-item">
+            <a class="nav-link text-light text-uppercase fw-bold px-3" href="#team">Team</a>
+          </li>
+
+          <!-- Contact -->
+          <li class="nav-item">
+            <a class="nav-link text-light text-uppercase fw-bold px-3" href="#contact">Contact</a>
+          </li>
+        </ul>
+        
+        <!-- Search -->
+        <form action="#" class="form-inline">
+          <div class="input-group">
+            <input type="search" class="form-control" name="search" id="" placeholder="search">
+            <div class="input-group-append">
+           <button class="btn btn-outline" type="button"><i class="fa-solid fa-magnifying-glass" style="color: #ddd;"></i></button>
+          </div>
+          </div>
+        </form>
+
+      </div>
+      
+    </div>
+  </nav>
+  <!-- End of Navbar -->
+
+<!-- banner-->
+<div class="container-fluid">
+  <div class="row bg-info justify-content-center align-items-center" style="height: 100vh;">
+    <div class="col-sm-10 text-center">
+    <h1 class="display-2 text-capitalize"><span class="text-warning">website using</span>
+      <span class="text-primary-emphasis fw-bold">bootstrap</span>
+    </h1>
+    <h2 class="fw-light fst-italic text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <a href="#" class="btn btn-warning btn-lg px-4 m-3">Click Me!</a>
+    <a href="#" class="btn btn-primary btn-lg px-3 m-2">Press Here</a>
+  </div>
+  </div>
+</div>
+<!-- end of banner-->
+
+
+
+
+
+
+
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
